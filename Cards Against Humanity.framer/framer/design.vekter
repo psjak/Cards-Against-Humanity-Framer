@@ -147,7 +147,7 @@
                     }
                   ],
                   "cached" : {
-                    "html" : "<span data-offset-key=\"bkh8s-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:26px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Card Text<\/span><\/span>",
+                    "html" : "<span data-offset-key=\"bkh8s-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:26px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Card Text<\/span><\/span>",
                     "os" : "10_13",
                     "size" : {
                       "height" : 31,
@@ -467,7 +467,7 @@
                     }
                   ],
                   "cached" : {
-                    "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Button<\/span><\/span>",
+                    "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Button<\/span><\/span>",
                     "os" : "10_13",
                     "size" : {
                       "height" : 24,
@@ -757,7 +757,7 @@
                     }
                   ],
                   "cached" : {
-                    "html" : "<span data-offset-key=\"bkh8s-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:26px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Card Text<\/span><\/span>",
+                    "html" : "<span data-offset-key=\"bkh8s-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:26px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Card Text<\/span><\/span>",
                     "os" : "10_13",
                     "size" : {
                       "height" : 31,
@@ -1018,7 +1018,7 @@
                 }
               ],
               "cached" : {
-                "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Undo<\/span><\/span>",
+                "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Undo<\/span><\/span>",
                 "os" : "10_13",
                 "size" : {
                   "height" : 24,
@@ -1220,7 +1220,7 @@
                 }
               ],
               "cached" : {
-                "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Gimme your name…<\/span><\/span>",
+                "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:#000000;font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Gimme your name…<\/span><\/span>",
                 "os" : "10_13",
                 "size" : {
                   "height" : 24,
@@ -1363,7 +1363,7 @@
                     }
                   ],
                   "cached" : {
-                    "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:600;font-family:&quot;OpenSans-Semibold&quot;, &quot;Open Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Join<\/span><\/span>",
+                    "html" : "<span data-offset-key=\"27ovr-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;OpenSans-Semibold&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:20px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Join<\/span><\/span>",
                     "os" : "10_13",
                     "size" : {
                       "height" : 24,

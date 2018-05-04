@@ -8,3 +8,12 @@
 */preview.png
 *.png
 .DS_Store
+Cards Against Humanity.framer/.preview.html
+Cards Against Humanity.framer/framer/design.vekter
+Cards Against Humanity.framer/framer/framer.vekter.js
+Cards Against Humanity.framer/framer/preview.png
+Cards Against Humanity.framer/framer/framer.vekter.js
+*.js
+*.vekter
+*.png
+Cards Against Humanity.framer/Icon
