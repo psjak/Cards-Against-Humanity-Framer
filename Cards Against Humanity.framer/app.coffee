@@ -145,6 +145,8 @@ class Round
 		blackCard.children[0].text = @blackCard.text
 		@numBlanks = @blackCard.numAnswers
 		@numCardsPlayed = 0
+		Utils.delay 1, -> 
+			startCountDown.start()
 	
 	playCard: (card) ->
 		if @cardRemaining > 0
@@ -209,4 +211,26 @@ Game.Round.start()
 
 blackCard.children[0].text.slice(1,6).color = "Grey"
 
-#test comment
+######################################## COUNTDOWN ########################################
+baseRoundTime = 20 
+countDownFrame.parent = blackCard
+countDown.borderColor = "white"
+countDown.strokeFraction = 1
+countDownNumber.text = baseRoundTime + Game.Round.numBlanks * 3
+totalTime = countDownNumber.text 
+
+startCountDown = new Animation countDown,
+	strokeFraction: 0
+	options:
+		time: baseRoundTime + 3 * Game.Round.numBlanks 
+		curve: Bezier.linear
+		
+countDown.on "change:strokeFraction", -> 
+	increment = totalTime * countDown.strokeFraction
+	baseTime = Utils.round(increment)
+	countDownNumber.text = baseTime
+	
+startCountDown.on Events.AnimationEnd, -> 
+	print "COUNTDOWN EXPIRED -> Implement End of Round functionality!"
+	
+######################################## COUNTDOWN ########################################
