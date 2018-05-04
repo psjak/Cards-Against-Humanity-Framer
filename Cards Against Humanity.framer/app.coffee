@@ -113,6 +113,8 @@ class Deck
 				y: 0
 				width: card.width
 				height: card.height
+			card.onTap ->
+				Game.Round.playCard(@)
 			card.onTouchStart ->
 		# 		@animate "dragStart"
 			card.onTouchEnd ->
@@ -148,6 +150,8 @@ class Round
 			@numCardsPlayed = @playedCards.length
 			card.animate
 				y: -100
+				options:
+					time: 0.2
 			card.draggable = false
 			undo = UndoButton.copy()
 			createButton(undo)
