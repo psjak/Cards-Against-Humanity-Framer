@@ -26,10 +26,6 @@ createButton = (layer) ->
 	layer.onTouchMove ->
 		@backgroundColor = DefaultColour
 
-######Card Functions######
-
-
-
 ######Variables######
 handSize = 10
 cardInset = (Screen.width - whiteCard.width) / 2
@@ -117,6 +113,8 @@ class Deck
 				y: 0
 				width: card.width
 				height: card.height
+			card.onTap ->
+				Game.Round.playCard(@)
 			card.onTouchStart ->
 		# 		@animate "dragStart"
 			card.onTouchEnd ->
@@ -152,6 +150,8 @@ class Round
 			@numCardsPlayed = @playedCards.length
 			card.animate
 				y: -100
+				options:
+					time: 0.2
 			card.draggable = false
 			undo = UndoButton.copy()
 			createButton(undo)
@@ -189,7 +189,18 @@ class Round
 
 flow = new FlowComponent
 
-flow.showNext(GameScreen)
+flow.showNext(setupScreen)
+
+joinButton.onTap ->
+	helloText.template = selectedEmoji
+	avatar.text = selectedEmoji
+	flow.showNext(waitScreen)
+	Game.Round.start()
+
+	Utils.delay 4, ->
+		flow.showNext(GameScreen)
+		blackCard.sendToBack()
+		
 
 handScroll = new ScrollComponent
 	width: Screen.width
@@ -203,10 +214,16 @@ handScroll = new ScrollComponent
 handScroll.content.clip = false
 
 createButton(ActionButton)
+createButton(joinButton)
 
 Game = new CAHGame
-Game.Round.start()
 
-blackCard.children[0].text.slice(1,6).color = "Grey"
-
-#test comment
+joinButton.opacity = 0
+selectedEmoji = null
+for emoji in avatarSelect.children
+	emoji.onTap ->
+		joinButton.opacity = 1
+		for emoji in avatarSelect.children
+			emoji.backgroundColor = "white"
+		@backgroundColor = "black"
+		selectedEmoji = @children[0].text
