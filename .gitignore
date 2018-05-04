@@ -6,3 +6,5 @@
 *.modules.js
 *.vekter.js
 */preview.png
+*.png
+.DS_Store
